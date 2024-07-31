@@ -1,5 +1,4 @@
 module.exports = function reverse (n) {
-    function reverse (n) {
         let tmp = Math.abs(n), res = '';
         while (tmp) {
             res += String(tmp % 10);
@@ -10,4 +9,4 @@ module.exports = function reverse (n) {
         return res
     }
     
-}
+
